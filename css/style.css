@@ -113,4 +113,31 @@ body {
 
 .download-ctn {
 	border: 1px solid rgba(0,0,0,.5);
+	padding: 30px 30px;
 }
+
+.house-img {
+	width: 25%;
+	margin-left: 20px;
+	display: inline-block;
+}
+
+table {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.table-tags {
+	font-size: 11px;
+	text-transform: uppercase;
+	color: rgba(0,0,0,.5);
+}
+
+
+
+
+
+
+
+
+

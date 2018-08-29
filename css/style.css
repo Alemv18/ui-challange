@@ -6,6 +6,77 @@ body {
 }
 
 /* Navigation Section */
+#mainNav {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: #fff;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 14px;
+  padding: 11px;
+  color: rgba(0,0,0,.5);
+  border: 1px solid white;
+}
+
+#mainNav .navbar-brand {
+  font-weight: 700;
+}
+
+#mainNav a {
+  color: rgba(0,0,0,.5);
+  padding-left: 20px;
+}
+
+#mainNav .navbar-nav .nav-item {
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+
+#mainNav .navbar-nav .nav-item:hover {
+  color: fade(white, 80%);
+  outline: none;
+  background-color: transparent;
+}
+
+#mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
+  outline: none;
+  background-color: #fff;
+}
+
+@media (min-width:992px) {
+  #mainNav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    -moz-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    letter-spacing: 1px;
+    border-bottom: none;
+    background: #fff;
+  }
+
+  #mainNav.navbar-shrink {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    background: black;
+  }
+
+  #mainNav .nav-link.active {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  #mainNav .nav-link.active:hover {
+    color: white;
+  }
+
+}
+
 #mcmakler-logo {
 	width: 50%;
 }
@@ -36,4 +107,10 @@ body {
 	font-weight: 300;
 	font-size: 20px;
 	color: rgba(0,0,0,.5);
+}
+
+/* Download Section */
+
+.download-ctn {
+	border: 1px solid rgba(0,0,0,.5);
 }

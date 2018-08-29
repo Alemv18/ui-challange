@@ -26,3 +26,5 @@ Boostrap.
 The reason I took this path is because I wanted to show that I can make anything from scratch and my love 
 for making every detail of my designs look good.
 
+After this test, I would love to have an opportunity to show some of my portfolio of work done, so you can get to 
+see some of my designs and professional experience.

@@ -150,6 +150,51 @@ table {
 	margin-right: 20px;
 }
 
+.number-selected {
+	margin-left: 20px;
+	color: rgba(0,0,0,.5);
+	font-size: 13px;
+	margin-top: 10px;
+	font-weight: 600;
+}
+
+input[type="checkbox"] {
+	border: 1px solid grey;
+    width: 3%;
+}
+
+
+.img-title {
+	margin-left: 80px;
+    margin-top: -23px;
+    font-size: 14px;
+    color: grey;
+}
+
+
+.images-tab {
+	background-color: #80808026;
+    width: 100%;
+    height: 47px;
+    border-top: 1px solid #80808042;
+    border-bottom: 1px solid #80808042;
+}
+
+.fa-download {
+	margin-top: 10px;
+	color: grey;
+}
+
+.select-option {
+	margin-top: 10px;
+}
+
+
+
+
+
+
+
 
 
 

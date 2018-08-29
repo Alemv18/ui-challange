@@ -113,13 +113,14 @@ body {
 
 .download-ctn {
 	border: 1px solid rgba(0,0,0,.5);
-	padding: 30px 30px;
+	padding: 30px 50px;
 }
 
 .house-img {
 	width: 25%;
-	margin-left: 20px;
-	display: inline-block;
+    margin-top: -60px;
+    margin-left: 20px;
+    display: inline-block;
 }
 
 table {
@@ -133,8 +134,21 @@ table {
 	color: rgba(0,0,0,.5);
 }
 
+.table-info {
+	padding: 1px 11px;
+	background-color: #fff !important;
+}
 
 
+.download-btn {
+	background-color: rgb(252, 184, 44);
+	color: white;
+	font-size: 13px;
+	border: none;
+	font-weight: 600;
+	padding: 10px 20px;
+	margin-right: 20px;
+}
 
 
 

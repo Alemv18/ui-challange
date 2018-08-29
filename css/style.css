@@ -77,6 +77,17 @@ body {
 
 }
 
+@media (min-width: 372px) and (max-width: 768px) {
+ .download-ctn {
+	border-color: transparent;
+}
+
+body {
+	background: pink;
+}
+
+}
+
 #mcmakler-logo {
 	width: 50%;
 }
@@ -187,6 +198,31 @@ input[type="checkbox"] {
 
 .select-option {
 	margin-top: 10px;
+}
+
+.select-option-doc {
+	display: inline-block;
+}
+
+.type-doc-icon {
+	display: inline-block;
+	width: 11%;
+}
+
+.img-title-option {
+	color: #000;
+    font-size: 16px;
+    display: inline;
+    margin-left: 10px;
+}
+
+.images-title-option {
+	color: rgba(0,0,0,.5);
+}
+
+.doctype-selection {
+	padding-left: 120px !important;
+    margin-top: 20px;
 }
 
 
